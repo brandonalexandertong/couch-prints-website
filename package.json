@@ -12,7 +12,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "barba.js": "^1.0.0"
+    "barba.js": "^1.0.0",
+    "browser-sync": "^2.26.13",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sourcemaps": "^3.0.0"
   },
   "dependencies": {
     "@barba/core": "^2.9.7",
