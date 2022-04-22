@@ -3,14 +3,7 @@ import gsap from "gsap";
 import './style.css'
 import './normalize.css'
 import './canvas-fix.css'
-import Cover from './impressions-art.jpg'
-import BackgroundFront from './lib/background/rapture_ft.png'
-import BackgroundBack from './lib/background/rapture_bk.png'
-import BackgroundDown from './lib/background/rapture_dn.png'
-import BackgroundLeft from './lib/background/rapture_lf.png'
-import BackgroundRight from './lib/background/rapture_rt.png'
-import BackgroundUp from './lib/background/rapture_up.png'
-  
+
 function doThree () {
   const renderer = new THREE.WebGLRenderer({
     anitalias: true
@@ -68,24 +61,26 @@ function doThree () {
 
   const createSkyBox = function() {
 
-    	var directions  = [BackgroundFront, BackgroundBack, BackgroundUp, BackgroundDown, BackgroundRight, BackgroundLeft];
-    	var geometry = new THREE.CubeGeometry( 5000, 5000, 5000 );
+    var imagePrefix = "./assets/images/rapture_";
+    var directions  = ["ft", "bk", "up", "dn", "rt", "lf"];
+    var imageSuffix = ".png";
+    var geometry = new THREE.CubeGeometry( 5000, 5000, 5000 );
 
-    	var materialArray = [];
-    	for (var i = 0; i < 6; i++)
-    		materialArray.push( new THREE.MeshBasicMaterial({
-    			map: THREE.ImageUtils.loadTexture(directions[i]),
-    			side: THREE.BackSide
-    		}));
-    	var material = new THREE.MeshFaceMaterial( materialArray );
-    	var mesh = new THREE.Mesh( geometry, material );
-    	scene.add(mesh);
-      return mesh
-  }
+    var materialArray = [];
+    for (var i = 0; i < 6; i++)
+      materialArray.push( new THREE.MeshBasicMaterial({
+        map: THREE.ImageUtils.loadTexture( imagePrefix + directions[i] + imageSuffix ),
+        side: THREE.BackSide
+      }));
+    var material = new THREE.MeshFaceMaterial( materialArray );
+    var mesh = new THREE.Mesh( geometry, material );
+    scene.add(mesh);
+    return mesh
+}
 
   // Adding Shapes -----------------------------------------------
 
-  const tellU = createTellU(Cover, 0, 0, -1000, "http://fn-up.com/", "www.fn-up.com")
+  const tellU = createTellU('./assets/images/impressions-art.jpg', 0, 0, -1000, "http://fn-up.com/", "www.fn-up.com")
   const skyBoxMade = createSkyBox()
 
   const group = new THREE.Group()

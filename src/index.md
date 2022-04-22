@@ -66,7 +66,7 @@ layout: layouts/base.njk
     <a href="https://atwoodmagazine.com/cptu-couch-prints-interview-2020/" target="_blank"><h2>30. Oct 2020 | Atwood Magazine<br>INTERVIEW: COUCH PRINTS’ DEBUT EP ‘TELL U’ IS AN EXPLORATION OF THE UNIVERSALITY OF HUMAN EXPERIENCE</h2>
     </a>
     <a href="https://atwoodmagazine.com/cptu-couch-prints-interview-2020/" target="_blank">
-    <!-- <img src="./lib/Couch-Prints_Tell-U_Press_Wade_01_SMALL.jpg" alt="Tell-U"> -->
+    <img src="./assets/images/Couch-Prints_Tell-U_Press_Wade_01_SMALL.jpg" alt="Tell-U">
     </a>
     <p>"A profound illumination of the ineffable, Couch Prints’ debut EP ‘Tell U’ is an intimate rendering of the self and the world."
     </p>
