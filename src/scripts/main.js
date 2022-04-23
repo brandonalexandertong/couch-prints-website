@@ -1,9 +1,23 @@
 import * as THREE from 'three'
 import gsap from "gsap";
-import './style.css'
-import './normalize.css'
-import './canvas-fix.css'
 
+import './canvas-fix.css'
+import './normalize.css'
+import './style.css'
+
+
+
+// this imports all images from ./lib 
+
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  console.log(images)
+  return images;
+}
+
+const images = importAll(require.context('./lib', false, /\.(png|jpe?g|svg)$/));
+  
 function doThree () {
   const renderer = new THREE.WebGLRenderer({
     anitalias: true
@@ -158,10 +172,12 @@ function doThree () {
   })
 
   // Tweening ---------------------------------------------------
-  TweenMax.set(newsModal,{autoAlpha:1})
-  const tl = new TimelineLite({paused:true, onReverseComplete:reverseFunction})
-  tl.to(tellU, 1, {three:{x:3000}, ease: Back.easeInOut.config(.5), y: -500}, 0)
-  tl.from(newsModal, .75, {autoAlpha:0, ease: Back.easeOut.config(.5), y: -50}, .65);
+  gsap.set(newsModal,{autoAlpha:1})
+  const tl = gsap.timeline({paused:true, onReverseComplete:reverseFunction})
+  console.log(tl)
+  tl.to(tellU.position, {duration: 1, x:3000, ease: "back.inOut(1.7)"}, 0)
+  tl.from(newsModal, {duration: .75, autoAlpha:0, y: -50, ease: "back.inOut(1.7)"}, .65);
+  // "back.out(1.7)"
 
   function reverseFunction () {
     newsModal.style.display="none"

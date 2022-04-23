@@ -13,6 +13,7 @@ module.exports = {
       test: /\.css$/i,
       use: ['style-loader', 'css-loader'],
     },
+    // this loads files with correct name from original files so it can be referenced
     {
       test: /\.(png|svg|jpg|jpeg|gif)$/i,
       type: 'asset/resource',
