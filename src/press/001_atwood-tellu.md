@@ -7,4 +7,4 @@ link: https://atwoodmagazine.com/cptu-couch-prints-interview-2020/
 tags: press
 ---
 
-'A profound illumination of the ineffable, Couch Prints’ debut EP ‘Tell U’ is an intimate rendering of the self and the world.'
+A profound illumination of the ineffable, Couch Prints’ debut EP ‘Tell U’ is an intimate rendering of the self and the world.
