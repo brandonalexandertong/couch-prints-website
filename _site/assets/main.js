@@ -9,61 +9,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/scripts/canvas-fix.css":
-/*!**************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/scripts/canvas-fix.css ***!
-  \**************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html, body {\\n  position: fixed;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://couch-prints/./src/scripts/canvas-fix.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/scripts/normalize.css":
-/*!*************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/scripts/normalize.css ***!
-  \*************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html, body, div, span, applet, object, iframe,\\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\\na, abbr, acronym, address, big, cite, code,\\ndel, dfn, em, img, ins, kbd, q, s, samp,\\nsmall, strike, strong, sub, sup, tt, var,\\nb, u, i, center,\\ndl, dt, dd, ol, ul, li,\\nfieldset, form, label, legend,\\ntable, caption, tbody, tfoot, thead, tr, th, td,\\narticle, aside, canvas, details, embed,\\nfigure, figcaption, footer, header, hgroup,\\nmenu, nav, output, ruby, section, summary,\\ntime, mark, audio, video {\\n  margin: 0;\\n  padding: 0;\\n  border: 0;\\n  font-size: 100%;\\n  font: inherit;\\n  vertical-align: baseline;\\n}\\n\\narticle, aside, details, figcaption, figure,\\nfooter, header, hgroup, menu, nav, section {\\n  display: block;\\n}\\nbody {\\n  line-height: 1;\\n}\\nol, ul {\\n  list-style: none;\\n}\\nblockquote, q {\\n  quotes: none;\\n}\\nblockquote:before, blockquote:after,\\nq:before, q:after {\\n  content: '';\\n  content: none;\\n}\\ntable {\\n  border-collapse: collapse;\\n  border-spacing: 0;\\n}\\n\\nimg, iframe {\\n  vertical-align: bottom;\\n  max-width: 100%;\\n}\\n\\ninput, textarea, select {\\n  font: inherit;\\n}\\n\\n* {\\n  -webkit-box-sizing: border-box;\\n  -moz-box-sizing: border-box;\\n  box-sizing: border-box;\\n  -webkit-font-smoothing: antialiased;\\n  text-rendering: optimizeLegibility;\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://couch-prints/./src/scripts/normalize.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/scripts/style.css":
-/*!*********************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/scripts/style.css ***!
-  \*********************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html {\\n  -webkit-box-sizing: border-box;\\n  -moz-box-sizing: border-box;\\n  box-sizing: border-box;\\n}\\n*, *:before, *:after {\\n  -webkit-box-sizing: inherit;\\n  -moz-box-sizing: inherit;\\n  box-sizing: inherit;\\n  }\\n\\n/* @font-face {\\n  font-family: \\\"HK Grotesk\\\";\\n  src: url(\\\"fonts/hk-grotesk.woff2\\\")format(\\\"woff2\\\"), url(\\\"fonts/hk-grotesk.woff\\\")format(\\\"woff\\\");\\n} */\\n\\n\\nhtml, body {\\n  position: fixed;\\n  height: 100%;\\n}\\n\\ncanvas {\\n  top: 0;\\n  left: 0;\\n  vertical-align: bottom;\\n}\\n\\nbody{\\n  font-family: 'Sawarabi Mincho', sans-serif;\\n  /* font-family: Arial, Helvetica, sans-serif; */\\n  font-weight: 500;\\n  text-transform: uppercase;\\n\\tline-height: 1.5;\\n  font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));\\n\\n\\tbackground-color: #ffffff;\\n\\tcolor: #ffffff;\\n  cursor: grab;\\n}\\n\\na{\\n  text-decoration: none;\\n  color: white;\\n}\\n\\na:hover {\\n  transform: skewY(10deg);\\n}\\n\\nsection.info {\\n  box-sizing: border-box;\\n  height: 100%;\\n  position: fixed;\\n}\\n\\ndiv.top-left {\\n  min-width: 150px;\\n  position: fixed;\\n  top: 0;\\n  left: 0;\\n  padding-left: 30px;\\n  padding-right: 30px;\\n  padding-top: 30px;\\n  z-index: 2;\\n  transition: transform .3s ease;\\n  white-space: nowrap;\\n}\\n\\ndiv.top-left:hover {\\n  transform: skewY(10deg);\\n}\\n\\ndiv.top-right {\\n  position: fixed;\\n  top: 0;\\n  right: 0;\\n  padding-left: 30px;\\n  padding-right: 30px;\\n  padding-top: 30px;\\n  z-index: 2;\\n  transition: transform .3s ease;\\n  white-space: nowrap;\\n}\\n\\n\\ndiv.top-right:hover {\\n  transform: skewY(10deg);\\n}\\n\\ndiv.middle-left {\\n  height: 100vh;\\n  position: fixed;\\n  /* transform: translateY(-15px); */\\n  /* -webkit-transform: translateY(-15px); */\\n  padding-bottom: 30px;\\n  padding-left: 30px;\\n  padding-right: 30px;\\n  display: flex;\\n  align-items: center;\\n  white-space: nowrap;\\n  z-index: 1;\\n}\\n\\ndiv.middle-left a {\\n  transition: transform .3s ease;\\n}\\n\\n.middle-left a:hover {\\n  transform: skewY(10deg);\\n}\\n\\ndiv.middle-right {\\n  height: 100vh;\\n  position: fixed;\\n  /* transform: translateY(-15px);\\n  -webkit-transform: translateY(-15px); */\\n  padding-bottom: 30px;\\n  right: 0;\\n  padding-left: 30px;\\n  padding-right: 30px;\\n  display: flex;\\n  align-items: center;\\n  white-space: nowrap;\\n}\\n\\ndiv.middle-right h1 {\\n  transition: transform .3s ease;\\n}\\n\\n.middle-right h1:hover {\\n  transform: skewY(10deg);\\n  cursor: pointer;\\n}\\n.tour.clicked {\\n  transform: skewY(10deg);\\n}\\n\\ndiv.bottom-left {\\n  position: fixed;\\n  bottom: 0;\\n  left: 0;\\n  padding-left: 30px;\\n  padding-right: 30px;\\n  padding-bottom: 60px;\\n  z-index: 2;\\n  transition: transform .3s ease;\\n  white-space: nowrap;\\n}\\n\\ndiv.bottom-left:hover {\\n  transform: skewY(10deg);\\n  cursor: pointer;\\n}\\ndiv.bottom-left.clicked {\\n  transform: skewY(10deg);\\n}\\n\\ndiv.bottom-right {\\n  position: fixed;\\n  bottom: 0;\\n  right: 0;\\n  padding-left: 30px;\\n  padding-right: 30px;\\n  padding-bottom: 60px;\\n  z-index: 2;\\n  transition: transform .3s ease;\\n  white-space: nowrap;\\n}\\ndiv.bottom-right.clicked {\\n  transform: skewY(10deg);\\n}\\n\\ndiv.bottom-right:hover {\\n  transform: skewY(10deg);\\n  cursor: pointer;\\n}\\n\\n/* right section ======================== */\\nsection.info-right {\\n  position: fixed;\\n  top:0;\\n  right:0;\\n  height: 100vh;\\n  transition: transform 0.4s;\\n  z-index: 3;\\n}\\n\\nsection.info-right.open {\\n  transform: translateX(-25vw);\\n}\\n\\n/* Social ================================ */\\ndiv.social {\\n  width: 100vw;\\n  bottom: 20px;\\n  left: 0;\\n  position: fixed;\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  z-index: 4;\\n}\\n\\n.social-icons li {\\n  display: inline-block;\\n  margin-left: 10px;\\n  margin-right: 10px;\\n  opacity: 0.5;\\n  transition: opacity 0.3s;\\n  white-space: nowrap;\\n  font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1600 - 300)));\\n  /* width: 20px; */\\n}\\n\\nul.social-icons {\\n  width: 280px;\\n  display: flex;\\n  align-items: center;\\n  justify-content: space-between;\\n}\\n\\n.social-icons li:hover {\\n  opacity: 1;\\n}\\n\\n/* Soundcloud ================================ */\\n\\ndiv.sc-wrap {\\n  width: 300px;\\n  opacity: 0.5;\\n  transition: opacity 0.35s;\\n  padding-right: 20px;\\n  transform: translateY(-1px);\\n}\\n\\ndiv.sc-wrap:hover {\\n  opacity: 1;\\n}\\n\\nspan.line {\\n  background-color: #fff;\\n  height: 20px;\\n  width: 1px;\\n  opacity: .5;\\n  margin-right: 12px;\\n}\\n\\n/* Tour ============================== */\\ndiv.tour-info {\\n  width: 25vw;\\n  height: 100%;\\n  position: fixed;\\n  top: 0;\\n  right: 0;\\n  display: flex;\\n  /* Delete align items once you add more items */\\n  align-items: center;\\n  justify-content: center;\\n  overflow-y: scroll;\\n  transform: translateX(25vw);\\n  transition: transform 0.5s;\\n  box-sizing: border-box;\\n\\n  padding-top: 30px;\\n  padding-bottom: 40px;\\n  z-index: 5;\\n\\n\\n}\\n\\ndiv.tour-info.open {\\n  transform: translateX(0vw);\\n}\\n\\n.tour-info li {\\n  text-decoration: underline;\\n  text-align: center;\\n}\\n\\n.tour-info p {\\n  padding-bottom: 15px;\\n}\\n\\n\\n/* Contact Modal =========================== */\\ndiv.contact-modal {\\n  visibility: hidden;\\n  position: fixed;\\n  top: 50vh;\\n  left: 50vw;\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  flex-direction: column;\\n  text-align: center;\\n  transform: translateY(-50%) translateX(-50%);\\n}\\n\\n#mc_embed_signup {\\n  background:rgba(0,0,0,0);\\n  clear:left;\\n  font-family: 'Sawarabi Mincho', sans-serif;\\n  text-transform: uppercase !important;\\n  font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));\\n  width:100%;\\n}\\n\\n#mc_embed_signup input.button {\\n  border: 1px solid #fff !important;\\n  border-radius: 0px !important;\\n  background-color: rgba(0,0,0,0) !important;\\n  text-transform: uppercase !important;\\n  padding: .25em 1em 1em 1em !important;\\n  display: block !important;\\n  height: 40px;\\n}\\n\\n#mc_embed_signup input.button:hover {\\n  background-color: rgba(0,0,0,0);\\n  opacity: 1;\\n}\\n\\ninput {\\n        display: block;\\n        width: 100%;\\n        border: 1px solid #fff !important;\\n        border-radius: 0px !important;\\n        background-color: rgba(244,244,244,0) !important;\\n        color: #fff !important;\\n        font-family: 'Sawarabi Mincho', sans-serif !important;\\n        text-transform: uppercase !important;\\n        height: 40px !important;\\n        /* padding: 0 0 1em 0 !important; */\\n    }\\n\\ndiv.contact-modal.open {\\n  visibility: visible;\\n  z-index: 100;\\n}\\n.contact-modal h1 {\\n  transform: skewX(-15deg);\\n  text-decoration: underline;\\n  padding-bottom: 15px;\\n}\\n\\n.contact-modal a:hover {\\n  transform: none !important;\\n}\\n\\n.extra {\\n  padding-top: 1em;\\n}\\n\\n/* News Page ============================== */\\nsection.news-scroll {\\n  padding-top: 30px;\\n  padding-left: 30px;\\n  padding-right: 30px;\\n  top: 0;\\n  left: 0;\\n  height: 100vh;\\n  width: 100vw;\\n  overflow-y: scroll;\\n  position: relative;\\n  display: none;\\n  flex-direction: column;\\n  align-items: center;\\n}\\n\\nsection.news-scroll h2 {\\n  font-size: calc(16px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));\\n  padding-bottom: 15px;\\n  line-height: 1.2em;\\n  display: inline-block;\\n  position: relative;\\n}\\n\\nsection.news-scroll h2::after {\\n  content: \\\"\\\";\\n  position: absolute;\\n  top: -15px;\\n  right: 0;\\n  height: 0.05em;\\n  background-color: currentColor;\\n  width: 100%;\\n  transition: width .25s, left .25s;\\n}\\n\\narticle.top {\\n  margin-top: 30px !important;\\n}\\n\\nsection.news-scroll p {\\n  text-transform: none;\\n  font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300)));\\n}\\n\\nsection.news-scroll img {\\n  width: 45vw;\\n  height: auto;\\n  margin-top: 5px;\\n  margin-bottom: 30px;\\n}\\n\\nsection.news-scroll article {\\n  text-align: center;\\n  margin-top: 40px;\\n  margin-bottom: 60px;\\n  width: 60vw;\\n}\\n\\n\\n/* Media Queries ======================================== */\\n\\n@media only screen and (max-width: 1100px) {\\n\\n  div.tour-info {\\n    width: 25vw;\\n    height: 100%;\\n    position: fixed;\\n    top: 0;\\n    right: 0;\\n    display: flex;\\n    /*align-items: center;*/\\n    justify-content: center;\\n    overflow-y: scroll;\\n    transform: translateX(25vw);\\n    transition: transform 0.5s;\\n    box-sizing: border-box;\\n\\n    padding-top: 30px;\\n    padding-bottom: 40px;\\n  }\\n}\\n\\n@media only screen and (max-width: 850px) {\\n  div.bottom-left {\\n    position: fixed;\\n    bottom: 0;\\n    left: 0;\\n    padding-left: 30px;\\n    padding-right: 30px;\\n    padding-bottom: 90px;\\n    z-index: 2;\\n  }\\n\\n  div.bottom-right {\\n    position: fixed;\\n    bottom: 0;\\n    right: 0;\\n    padding-left: 30px;\\n    padding-right: 30px;\\n    padding-bottom: 90px;\\n    z-index: 2;\\n  }\\n\\n  div.middle-left {\\n    /* transform: translateY(-22.5px);\\n    -webkit-transform: translateY(-22.5px); */\\n    padding-bottom: 77.5px;\\n  }\\n\\n  div.middle-right {\\n    /* transform: translateY(-22.5px);\\n    -webkit-transform: translateY(-22.5px); */\\n    padding-bottom: 77.5px;\\n  }\\n\\n/* Social ================================ */\\ndiv.social {\\n  width: 100vw;\\n  height: 85px;\\n  bottom: 0px;\\n  left: 0;\\n  position: fixed;\\n  display: flex;\\n  flex-direction: column;\\n  align-items: center;\\n  justify-content: center;\\n  z-index: 4;\\n}\\n\\n.social-icons li {\\n  display: inline-block;\\n  margin-left: 10px;\\n  margin-right: 10px;\\n  opacity: 0.5;\\n  transition: opacity 0.3s;\\n}\\n\\n.social-icons li:hover {\\n  opacity: 1;\\n}\\n\\n/* Soundcloud ================================ */\\n\\ndiv.sc-wrap {\\n  width: 300px;\\n  opacity: 0.5;\\n  transition: opacity 0.35s;\\n  padding-right: 0px;\\n  transform: translateY(10px);\\n}\\n\\ndiv.sc-wrap:hover {\\n  opacity: 1;\\n}\\n\\nspan.line {\\n  background-color: #fff;\\n  height: 20px;\\n  width: 1px;\\n  opacity: .5;\\n  margin-right: 12px;\\n  visibility: hidden;\\n}\\n\\nsection.info-right {\\n  transition: transform 1s;\\n}\\n\\ndiv.tour-info {\\n  transition: transform 1s;\\n}\\n\\n/* News ====================== */\\n\\n\\n}\\n\\n@media only screen and (max-width: 500px) {\\n\\n  /* Social ========================== */\\n\\n  .social-icons li {\\n    display: inline-block;\\n    margin-left: 5px;\\n    margin-right: 5px;\\n    opacity: 0.5;\\n    transition: opacity 0.3s;\\n  }\\n\\n  /* Tour ====================== */\\n\\n  div.tour-info {\\n    width: 40vw;\\n    height: 100%;\\n    position: fixed;\\n    top: 0;\\n    right: 0;\\n    display: flex;\\n    /*align-items: center;*/\\n    justify-content: center;\\n    overflow-y: scroll;\\n    transform: translateX(50vw);\\n    transition: transform 0.5s;\\n    box-sizing: border-box;\\n\\n    padding-top: 30px;\\n    padding-bottom: 40px;\\n\\n  }\\n\\n  section.info-right {\\n    position: fixed;\\n    top:0;\\n    right:0;\\n    height: 100vh;\\n    width: 35vw;\\n    transition: transform 0.4s;\\n    z-index: 3;\\n  }\\n\\n  section.info-right.open {\\n    transform: translateX(-35vw);\\n  }\\n\\n  /* Contact ================== */\\n\\n  div.contact-modal {\\n    position: fixed;\\n    top: 27vh;\\n    left: 50vw;\\n  }\\n\\n  /* Buttons ========================= */\\n\\n  div.top-left {\\n    padding-left: 15px;\\n    padding-right: 15px;\\n    padding-top: 15px;\\n    z-index: 2;\\n    transition: transform .3s ease;\\n  }\\n\\n  div.top-right {\\n    padding-left: 15px;\\n    padding-right: 15px;\\n    padding-top: 15px;\\n    z-index: 2;\\n    transition: transform .3s ease;\\n  }\\n\\n  div.middle-left {\\n    padding-left: 15px;\\n    padding-right: 15px;\\n  }\\n\\n  div.middle-left a {\\n    transition: transform .3s ease;\\n  }\\n\\n\\n  div.middle-right {\\n    padding-left: 15px;\\n    padding-right: 15px;\\n  }\\n\\n  div.middle-right h1 {\\n    transition: transform .3s ease;\\n  }\\n\\n  .tour.clicked {\\n    transform: skewY(0deg);\\n  }\\n\\n  div.bottom-left {\\n    padding-left: 15px;\\n    padding-right: 15px;\\n    transition: transform .3s ease;\\n  }\\n\\n  div.bottom-left.clicked {\\n    transform: skewY(0deg);\\n  }\\n\\n  div.bottom-right {\\n    padding-left: 15px;\\n    padding-right: 15px;\\n    z-index: 2;\\n    transition: transform .3s ease;\\n  }\\n\\n  div.bottom-right.clicked {\\n    transform: skewY(0deg);\\n  }\\n\\n\\n  /* News ========================= */\\n\\n  section.news-scroll {\\n    padding-top: 30px;\\n    padding-left: 40px;\\n    padding-right: 40px;\\n  }\\n\\n  section.news-scroll img {\\n    width: 100vw;\\n    height: auto;\\n    margin-top: 30px;\\n    margin-bottom: 15px;\\n  }\\n\\n\\n}\\n\\n@media (hover: none) {\\n  a:hover {\\n    transform: skewY(10deg);\\n  }\\n\\n  div.top-left:hover {\\n    transform: skewY(10deg);\\n  }\\n\\n  div.top-right:hover {\\n    transform: skewY(10deg);\\n  }\\n\\n  .middle-left a:hover {\\n    transform: skewY(10deg);\\n  }\\n\\n  .middle-right h1:hover {\\n    transform: skewY(10deg);\\n    cursor: pointer;\\n  }\\n\\n  div.bottom-left:hover {\\n    transform: skewY(10deg);\\n    cursor: pointer;\\n  }\\n\\n  div.bottom-right:hover {\\n    transform: skewY(10deg);\\n    cursor: pointer;\\n  }\\n\\n  .social-icons li:hover {\\n    opacity: 1;\\n  }\\n\\n  div.sc-wrap:hover {\\n    opacity: 1;\\n  }\\n}\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://couch-prints/./src/scripts/style.css?./node_modules/css-loader/dist/cjs.js");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-/***/ ((module) => {
-
-"use strict";
-eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n\n      content += cssWithMappingToString(item);\n\n      if (needLayer) {\n        content += \"}\";\n      }\n\n      if (item[2]) {\n        content += \"}\";\n      }\n\n      if (item[4]) {\n        content += \"}\";\n      }\n\n      return content;\n    }).join(\"\");\n  }; // import a list of modules into the list\n\n\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\n//# sourceURL=webpack://couch-prints/./node_modules/css-loader/dist/runtime/api.js?");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/noSourceMaps.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
-  \**************************************************************/
-/***/ ((module) => {
-
-"use strict";
-eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://couch-prints/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
-
-/***/ }),
-
 /***/ "./node_modules/gsap/CSSPlugin.js":
 /*!****************************************!*\
   !*** ./node_modules/gsap/CSSPlugin.js ***!
@@ -97,105 +42,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "./src/scripts/canvas-fix.css":
-/*!************************************!*\
-  !*** ./src/scripts/canvas-fix.css ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_canvas_fix_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./canvas-fix.css */ \"./node_modules/css-loader/dist/cjs.js!./src/scripts/canvas-fix.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_canvas_fix_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_canvas_fix_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_canvas_fix_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_canvas_fix_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://couch-prints/./src/scripts/canvas-fix.css?");
-
-/***/ }),
-
-/***/ "./src/scripts/normalize.css":
-/*!***********************************!*\
-  !*** ./src/scripts/normalize.css ***!
-  \***********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_normalize_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./normalize.css */ \"./node_modules/css-loader/dist/cjs.js!./src/scripts/normalize.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_normalize_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_normalize_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_normalize_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_normalize_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://couch-prints/./src/scripts/normalize.css?");
-
-/***/ }),
-
-/***/ "./src/scripts/style.css":
-/*!*******************************!*\
-  !*** ./src/scripts/style.css ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ \"./node_modules/style-loader/dist/runtime/styleDomAPI.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ \"./node_modules/style-loader/dist/runtime/insertBySelector.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ \"./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ \"./node_modules/style-loader/dist/runtime/insertStyleElement.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ \"./node_modules/style-loader/dist/runtime/styleTagTransform.js\");\n/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!./style.css */ \"./node_modules/css-loader/dist/cjs.js!./src/scripts/style.css\");\n\n      \n      \n      \n      \n      \n      \n      \n      \n      \n\nvar options = {};\n\noptions.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());\noptions.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());\n\n      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, \"head\");\n    \noptions.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());\noptions.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());\n\nvar update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"], options);\n\n\n\n\n       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"] && _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals ? _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__[\"default\"].locals : undefined);\n\n\n//# sourceURL=webpack://couch-prints/./src/scripts/style.css?");
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \****************************************************************************/
-/***/ ((module) => {
-
-"use strict";
-eval("\n\nvar stylesInDOM = [];\n\nfunction getIndexByIdentifier(identifier) {\n  var result = -1;\n\n  for (var i = 0; i < stylesInDOM.length; i++) {\n    if (stylesInDOM[i].identifier === identifier) {\n      result = i;\n      break;\n    }\n  }\n\n  return result;\n}\n\nfunction modulesToDom(list, options) {\n  var idCountMap = {};\n  var identifiers = [];\n\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i];\n    var id = options.base ? item[0] + options.base : item[0];\n    var count = idCountMap[id] || 0;\n    var identifier = \"\".concat(id, \" \").concat(count);\n    idCountMap[id] = count + 1;\n    var indexByIdentifier = getIndexByIdentifier(identifier);\n    var obj = {\n      css: item[1],\n      media: item[2],\n      sourceMap: item[3],\n      supports: item[4],\n      layer: item[5]\n    };\n\n    if (indexByIdentifier !== -1) {\n      stylesInDOM[indexByIdentifier].references++;\n      stylesInDOM[indexByIdentifier].updater(obj);\n    } else {\n      var updater = addElementStyle(obj, options);\n      options.byIndex = i;\n      stylesInDOM.splice(i, 0, {\n        identifier: identifier,\n        updater: updater,\n        references: 1\n      });\n    }\n\n    identifiers.push(identifier);\n  }\n\n  return identifiers;\n}\n\nfunction addElementStyle(obj, options) {\n  var api = options.domAPI(options);\n  api.update(obj);\n\n  var updater = function updater(newObj) {\n    if (newObj) {\n      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {\n        return;\n      }\n\n      api.update(obj = newObj);\n    } else {\n      api.remove();\n    }\n  };\n\n  return updater;\n}\n\nmodule.exports = function (list, options) {\n  options = options || {};\n  list = list || [];\n  var lastIdentifiers = modulesToDom(list, options);\n  return function update(newList) {\n    newList = newList || [];\n\n    for (var i = 0; i < lastIdentifiers.length; i++) {\n      var identifier = lastIdentifiers[i];\n      var index = getIndexByIdentifier(identifier);\n      stylesInDOM[index].references--;\n    }\n\n    var newLastIdentifiers = modulesToDom(newList, options);\n\n    for (var _i = 0; _i < lastIdentifiers.length; _i++) {\n      var _identifier = lastIdentifiers[_i];\n\n      var _index = getIndexByIdentifier(_identifier);\n\n      if (stylesInDOM[_index].references === 0) {\n        stylesInDOM[_index].updater();\n\n        stylesInDOM.splice(_index, 1);\n      }\n    }\n\n    lastIdentifiers = newLastIdentifiers;\n  };\n};\n\n//# sourceURL=webpack://couch-prints/./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js?");
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/insertBySelector.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
-  \********************************************************************/
-/***/ ((module) => {
-
-"use strict";
-eval("\n\nvar memo = {};\n/* istanbul ignore next  */\n\nfunction getTarget(target) {\n  if (typeof memo[target] === \"undefined\") {\n    var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself\n\n    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n      try {\n        // This will throw an exception if access to iframe is blocked\n        // due to cross-origin restrictions\n        styleTarget = styleTarget.contentDocument.head;\n      } catch (e) {\n        // istanbul ignore next\n        styleTarget = null;\n      }\n    }\n\n    memo[target] = styleTarget;\n  }\n\n  return memo[target];\n}\n/* istanbul ignore next  */\n\n\nfunction insertBySelector(insert, style) {\n  var target = getTarget(insert);\n\n  if (!target) {\n    throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.\");\n  }\n\n  target.appendChild(style);\n}\n\nmodule.exports = insertBySelector;\n\n//# sourceURL=webpack://couch-prints/./node_modules/style-loader/dist/runtime/insertBySelector.js?");
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/insertStyleElement.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
-  \**********************************************************************/
-/***/ ((module) => {
-
-"use strict";
-eval("\n\n/* istanbul ignore next  */\nfunction insertStyleElement(options) {\n  var element = document.createElement(\"style\");\n  options.setAttributes(element, options.attributes);\n  options.insert(element, options.options);\n  return element;\n}\n\nmodule.exports = insertStyleElement;\n\n//# sourceURL=webpack://couch-prints/./node_modules/style-loader/dist/runtime/insertStyleElement.js?");
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
-  \**********************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("\n\n/* istanbul ignore next  */\nfunction setAttributesWithoutAttributes(styleElement) {\n  var nonce =  true ? __webpack_require__.nc : 0;\n\n  if (nonce) {\n    styleElement.setAttribute(\"nonce\", nonce);\n  }\n}\n\nmodule.exports = setAttributesWithoutAttributes;\n\n//# sourceURL=webpack://couch-prints/./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js?");
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/styleDomAPI.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
-  \***************************************************************/
-/***/ ((module) => {
-
-"use strict";
-eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj) {\n  var css = \"\";\n\n  if (obj.supports) {\n    css += \"@supports (\".concat(obj.supports, \") {\");\n  }\n\n  if (obj.media) {\n    css += \"@media \".concat(obj.media, \" {\");\n  }\n\n  var needLayer = typeof obj.layer !== \"undefined\";\n\n  if (needLayer) {\n    css += \"@layer\".concat(obj.layer.length > 0 ? \" \".concat(obj.layer) : \"\", \" {\");\n  }\n\n  css += obj.css;\n\n  if (needLayer) {\n    css += \"}\";\n  }\n\n  if (obj.media) {\n    css += \"}\";\n  }\n\n  if (obj.supports) {\n    css += \"}\";\n  }\n\n  var sourceMap = obj.sourceMap;\n\n  if (sourceMap && typeof btoa !== \"undefined\") {\n    css += \"\\n/*# sourceMappingURL=data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), \" */\");\n  } // For old IE\n\n  /* istanbul ignore if  */\n\n\n  options.styleTagTransform(css, styleElement, options.options);\n}\n\nfunction removeStyleElement(styleElement) {\n  // istanbul ignore if\n  if (styleElement.parentNode === null) {\n    return false;\n  }\n\n  styleElement.parentNode.removeChild(styleElement);\n}\n/* istanbul ignore next  */\n\n\nfunction domAPI(options) {\n  var styleElement = options.insertStyleElement(options);\n  return {\n    update: function update(obj) {\n      apply(styleElement, options, obj);\n    },\n    remove: function remove() {\n      removeStyleElement(styleElement);\n    }\n  };\n}\n\nmodule.exports = domAPI;\n\n//# sourceURL=webpack://couch-prints/./node_modules/style-loader/dist/runtime/styleDomAPI.js?");
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/runtime/styleTagTransform.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
-  \*********************************************************************/
-/***/ ((module) => {
-
-"use strict";
-eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\n\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://couch-prints/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
-
-/***/ }),
-
 /***/ "./node_modules/three/build/three.module.js":
 /*!**************************************************!*\
   !*** ./node_modules/three/build/three.module.js ***!
@@ -213,7 +59,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*******************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\"./CP_Singles.jpg\": \"./src/scripts/lib/CP_Singles.jpg\",\n\t\"./CP_TU-EP.jpg\": \"./src/scripts/lib/CP_TU-EP.jpg\",\n\t\"./Couch-Prints_Tell-U_Press_Wade_01_SMALL.jpg\": \"./src/scripts/lib/Couch-Prints_Tell-U_Press_Wade_01_SMALL.jpg\",\n\t\"./Couch-Prints_Tell-U_Press_Wade_02_SMALL.jpg\": \"./src/scripts/lib/Couch-Prints_Tell-U_Press_Wade_02_SMALL.jpg\",\n\t\"./Of-Drawing_02_SMALL.jpg\": \"./src/scripts/lib/Of-Drawing_02_SMALL.jpg\",\n\t\"./Of-Drawing_Cover-Art_SMALL.jpg\": \"./src/scripts/lib/Of-Drawing_Cover-Art_SMALL.jpg\",\n\t\"./Of-Drawing_SMALL.jpg\": \"./src/scripts/lib/Of-Drawing_SMALL.jpg\",\n\t\"./fb.svg\": \"./src/scripts/lib/fb.svg\",\n\t\"./ig.png\": \"./src/scripts/lib/ig.png\",\n\t\"./ig.svg\": \"./src/scripts/lib/ig.svg\",\n\t\"./impressions-art.jpg\": \"./src/scripts/lib/impressions-art.jpg\",\n\t\"./rapture_bk.png\": \"./src/scripts/lib/rapture_bk.png\",\n\t\"./rapture_dn.png\": \"./src/scripts/lib/rapture_dn.png\",\n\t\"./rapture_ft.png\": \"./src/scripts/lib/rapture_ft.png\",\n\t\"./rapture_lf.png\": \"./src/scripts/lib/rapture_lf.png\",\n\t\"./rapture_rt.png\": \"./src/scripts/lib/rapture_rt.png\",\n\t\"./rapture_up.png\": \"./src/scripts/lib/rapture_up.png\",\n\t\"./s.svg\": \"./src/scripts/lib/s.svg\",\n\t\"./sc.svg\": \"./src/scripts/lib/sc.svg\",\n\t\"./t.svg\": \"./src/scripts/lib/t.svg\",\n\t\"./tell-u_01.jpg\": \"./src/scripts/lib/tell-u_01.jpg\",\n\t\"./yt.svg\": \"./src/scripts/lib/yt.svg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/scripts/lib sync \\\\.(png%7Cjpe?g%7Csvg)$\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/_sync_nonrecursive_\\.(png%257Cjpe?");
+eval("var map = {};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src/scripts/lib sync \\\\.(png%7Cjpe?g%7Csvg)$\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/_sync_nonrecursive_\\.(png%257Cjpe?");
 
 /***/ }),
 
@@ -224,249 +70,7 @@ eval("var map = {\n\t\"./CP_Singles.jpg\": \"./src/scripts/lib/CP_Singles.jpg\",
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ \"./node_modules/three/build/three.module.js\");\n/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gsap */ \"./node_modules/gsap/index.js\");\n/* harmony import */ var _canvas_fix_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./canvas-fix.css */ \"./src/scripts/canvas-fix.css\");\n/* harmony import */ var _normalize_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./normalize.css */ \"./src/scripts/normalize.css\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ \"./src/scripts/style.css\");\n\n\n\n\n\n\n\n\n\n// this imports all images from ./lib \n\nfunction importAll(r) {\n  let images = {};\n  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });\n  console.log(images)\n  return images;\n}\n\nconst images = importAll(__webpack_require__(\"./src/scripts/lib sync \\\\.(png%7Cjpe?g%7Csvg)$\"));\n  \nfunction doThree () {\n  const renderer = new three__WEBPACK_IMPORTED_MODULE_0__.WebGLRenderer({\n    anitalias: true\n  })\n  renderer.setSize(window.innerWidth, window.innerHeight)\n  renderer.setPixelRatio(window.devicePixelRatio)\n  renderer.setClearColor(0xffffff, 1)\n  const section = document.querySelector(\"main.three\")\n  section.appendChild(renderer.domElement)\n\n  // Scene -------------------------------------------------------\n  const scene = new three__WEBPACK_IMPORTED_MODULE_0__.Scene()\n  //scene.fog = new THREE.FogExp2(0x000000, 0.00034)\n\n  // Light -------------------------------------------------------\n  const light = new three__WEBPACK_IMPORTED_MODULE_0__.AmbientLight(0xcccccc)\n  scene.add(light)\n\n\n\n  // Camera ------------------------------------------------------\n  const camera = new three__WEBPACK_IMPORTED_MODULE_0__.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 10000)\n\n  camera.position.z = -3000\n\n\n  // Texture Loader ----------------------------------------------\n  const loader = new three__WEBPACK_IMPORTED_MODULE_0__.TextureLoader()\n\n\n  // Shapes ------------------------------------------------------\n  const createTellU= function (image, x, y, z, web, name) {\n    const texture = loader.load(image)\n    const geometry = new three__WEBPACK_IMPORTED_MODULE_0__.PlaneGeometry( 900, 900, 1)\n\n    const material = new three__WEBPACK_IMPORTED_MODULE_0__.MeshPhongMaterial({\n      map: texture,\n      color: 0xffffff,\n      specular: 0x111111,\n      shininess: 0,\n      side: three__WEBPACK_IMPORTED_MODULE_0__.DoubleSide\n    })\n\n    const mesh = new three__WEBPACK_IMPORTED_MODULE_0__.Mesh(geometry, material)\n    mesh.userData = {\n      URL: web,\n      NAME: name,\n    }\n\n    mesh.position.set(x,y,z)\n\n    scene.add(mesh)\n    return mesh\n  }\n\n  const createSkyBox = function() {\n\n    var imagePrefix = \"./assets/images/rapture_\";\n    var directions  = [\"ft\", \"bk\", \"up\", \"dn\", \"rt\", \"lf\"];\n    var imageSuffix = \".png\";\n    var geometry = new three__WEBPACK_IMPORTED_MODULE_0__.CubeGeometry( 5000, 5000, 5000 );\n\n    var materialArray = [];\n    for (var i = 0; i < 6; i++)\n      materialArray.push( new three__WEBPACK_IMPORTED_MODULE_0__.MeshBasicMaterial({\n        map: three__WEBPACK_IMPORTED_MODULE_0__.ImageUtils.loadTexture( imagePrefix + directions[i] + imageSuffix ),\n        side: three__WEBPACK_IMPORTED_MODULE_0__.BackSide\n      }));\n    var material = new three__WEBPACK_IMPORTED_MODULE_0__.MeshFaceMaterial( materialArray );\n    var mesh = new three__WEBPACK_IMPORTED_MODULE_0__.Mesh( geometry, material );\n    scene.add(mesh);\n    return mesh\n}\n\n  // Adding Shapes -----------------------------------------------\n\n  const tellU = createTellU('./assets/images/impressions-art.jpg', 0, 0, -1000, \"http://fn-up.com/\", \"www.fn-up.com\")\n  const skyBoxMade = createSkyBox()\n\n  const group = new three__WEBPACK_IMPORTED_MODULE_0__.Group()\n    group.add(tellU)\n    scene.add(group)\n\n\n  // Holding Camera Position for tweening ------------------------\n  let currentX = 0\n  let currentY = 0\n  let aimX = 0\n  let aimY = 0\n  let aimX2 = 0\n  let aimY2 = 0\n\n  // Animate -----------------------------------------------------\n  const animate = function () {\n\n    const diffX = aimX - currentX\n    const diffY = aimY - currentY\n    const diffX2 = aimX2 - currentX\n    const diffY2 = aimY2 - currentY\n\n    currentX = currentX + diffX * 0.1\n    currentY = currentY + diffY * 0.1\n\n    camera.position.x = currentX\n    camera.position.y = currentY\n\n    tellU.rotateY(-0.005)\n    //FNUP.rotateX(0.01)\n    skyBoxMade.rotateY(0.0005)\n    camera.lookAt(scene.position)\n\n    /*mirrorCubeCamera.lookAt(scene.position)\n\n    mirrorCube.visible = false;\n  \tmirrorCubeCamera.update( renderer, scene );\n  \tmirrorCube.visible = true;*/\n\n    renderer.render(scene, camera)\n\n    requestAnimationFrame(animate)\n\n    // console.log('animate')\n\n  }\n\n  animate ()\n\n\n  // Functions ---------------------------------------------------\n  let startX = 0\n  let startY = 0\n  let isMouseDown = false\n  var objects = [tellU]\n  const contactModal = document.getElementsByClassName('contact-modal')[0]\n  const contactTag = document.getElementsByClassName('bottom-right')[0]\n  const tourTag = document.getElementsByClassName('tour')[0]\n  const tourModal = document.getElementsByClassName('tour-info')[0]\n  const infoRight = document.getElementsByClassName('info-right')[0]\n  const newsModal = document.getElementsByClassName('news-scroll')[0]\n  const newsTag = document.getElementsByClassName('bottom-left')[0]\n  const musicTag = document.getElementsByClassName('top-right')[0]\n  const bodyTag = document.querySelector(\"body\")\n  let newsClick = true\n  let mouse = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();\n  let raycaster = new three__WEBPACK_IMPORTED_MODULE_0__.Raycaster(),INTERSECTED;\n\n\n  window.addEventListener(\"resize\", function () {\n    camera.aspect = window.innerWidth / window.innerHeight\n    camera.updateProjectionMatrix()\n    renderer.setSize(window.innerWidth, window.innerHeight)\n  })\n\n  // Tweening ---------------------------------------------------\n  gsap__WEBPACK_IMPORTED_MODULE_4__[\"default\"].set(newsModal,{autoAlpha:1})\n  const tl = gsap__WEBPACK_IMPORTED_MODULE_4__[\"default\"].timeline({paused:true, onReverseComplete:reverseFunction})\n  console.log(tl)\n  tl.to(tellU.position, {duration: 1, x:3000, ease: \"back.inOut(1.7)\"}, 0)\n  tl.from(newsModal, {duration: .75, autoAlpha:0, y: -50, ease: \"back.inOut(1.7)\"}, .65);\n  // \"back.out(1.7)\"\n\n  function reverseFunction () {\n    newsModal.style.display=\"none\"\n  }\n\n\n\n  // Mouse Wheel =====================================\n  section.addEventListener('wheel', onMouseWheel, false);\n\n    function onMouseWheel(event) {\n        event.preventDefault();\n\n      let currentRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              currentRotation.makeRotationFromEuler(tellU.rotation);\n\n              let newEuler = new three__WEBPACK_IMPORTED_MODULE_0__.Euler(event.deltaY * 0.007, event.deltaX * 0.007, 0);\n              let newRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              newRotation.makeRotationFromEuler(newEuler);\n\n              let finalRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              finalRotation.multiplyMatrices(newRotation, currentRotation);\n\n              tellU.rotation.setFromRotationMatrix(finalRotation);\n\n    }\n\n  // Drag ===========================================\n  document.addEventListener(\"mousedown\", function () {\n    isMouseDown = true\n    startX = event.pageX\n    startY = event.pageY\n    document.body.style.cursor = 'grabbing';\n  })\n\n  document.addEventListener(\"touchstart\", function () {\n  isMouseDown = true\n  startX = event.pageX\n  startY = event.pageY\n})\n\n  document.addEventListener(\"mouseup\", function () {\n    isMouseDown = false\n    document.body.style.cursor = 'grab';\n  })\n\n  document.addEventListener(\"touchend\", function () {\n    isMouseDown = false\n  })\n\n  document.addEventListener(\"mousemove\", function (event) {\n    aimX = ((window.innerWidth / 2) - event.pageX) * 0.25\n    aimY = ((window.innerHeight / 2) - event.pageY) * 0.3\n    aimX2 = ((window.innerWidth / 2) - event.pageX) * 0.05\n    aimY2 = ((window.innerHeight / 2) - event.pageY) * 0.05\n\n    mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;\n    mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;\n\n    raycaster.setFromCamera(mouse, camera)\n\n    const intersections = raycaster.intersectObjects(group.children)\n\n    // if (intersections.length > 0) {\n    //       if (INTERSECTED != intersections[0].object) {\n    //           if (INTERSECTED) INTERSECTED.material.color.setHex(INTERSECTED.currentHex);\n    //           INTERSECTED = intersections[0].object;\n    //           INTERSECTED.currentHex = INTERSECTED.material.color.getHex();\n    //           INTERSECTED.material.color.setHex( 0xffffff );\n    //           if (INTERSECTED){\n    //               document.body.style.cursor = \"pointer\"\n    //           }\n    //       }\n    //     } else {\n    //         if (INTERSECTED) INTERSECTED.material.color.setHex(INTERSECTED.currentHex);\n    //         document.body.style.cursor = \"default\";\n    //         INTERSECTED = null;\n    //     }\n    if(isMouseDown) {\n      let currentRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              currentRotation.makeRotationFromEuler(tellU.rotation);\n\n              let newEuler = new three__WEBPACK_IMPORTED_MODULE_0__.Euler((event.pageY - startY) / 100, (event.pageX - startX) / 100, 0);\n              let newRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              newRotation.makeRotationFromEuler(newEuler);\n\n              let finalRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              finalRotation.multiplyMatrices(newRotation, currentRotation);\n\n              tellU.rotation.setFromRotationMatrix(finalRotation);\n\n              startX = event.pageX;\n              startY = event.pageY;\n    }\n  })\n\n  document.addEventListener(\"touchmove\", function (event) {\n    event.preventDefault();\n\n    aimX = ((window.innerWidth / 2) - event.pageX) * 0.25\n    aimY = ((window.innerHeight / 2) - event.pageY) * 0.3\n    aimX2 = ((window.innerWidth / 2) - event.pageX) * 0.05\n    aimY2 = ((window.innerHeight / 2) - event.pageY) * 0.05\n\n    mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;\n    mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;\n\n    raycaster.setFromCamera(mouse, camera)\n\n    const intersections = raycaster.intersectObjects(group.children)\n\n    if(isMouseDown) {\n      let currentRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              currentRotation.makeRotationFromEuler(tellU.rotation);\n\n              let newEuler = new three__WEBPACK_IMPORTED_MODULE_0__.Euler((event.pageY - startY) / 100, (event.pageX - startX) / 100, 0);\n              let newRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              newRotation.makeRotationFromEuler(newEuler);\n\n              let finalRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              finalRotation.multiplyMatrices(newRotation, currentRotation);\n\n              tellU.rotation.setFromRotationMatrix(finalRotation);\n\n              startX = event.pageX;\n              startY = event.pageY;\n    }\n  })\n\n  // section.addEventListener('click', onDocumentMouseDown, false);\n  //\n  // function onDocumentMouseDown(event) {\n  //   event.preventDefault();\n  //\n  //   mouse.x = (event.clientX / window.innerWidth) * 2 - 1;\n  //   mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;\n  //   raycaster.setFromCamera(mouse, camera);\n  //   const intersections = raycaster.intersectObjects(objects)\n  //\n  // }\n\n\n  contactTag.addEventListener(\"click\", function () {\n    contactModal.classList.toggle(\"open\")\n    contactTag.classList.toggle(\"clicked\")\n    if(contactTag.classList.contains(\"clicked\")){\n      contactTag.innerHTML = \"Close\"\n    } else {\n      contactTag.innerHTML = \"Contact\"\n    }\n\n  })\n\n\n  // musicTag.addEventListener(\"mouseover\", function() {\n  //   musicTag.innerHTML = \"Soon\"\n  //   bodyTag.style.cursor = \"pointer\"\n  // })\n\n  // musicTag.addEventListener(\"mouseout\", function() {\n  //   musicTag.innerHTML = \"Music\"\n  //   bodyTag.style.cursor = \"grab\"\n  // })\n\n  tourTag.addEventListener(\"click\", function () {\n    tourModal.classList.toggle(\"open\")\n    infoRight.classList.toggle(\"open\")\n    tourTag.classList.toggle(\"clicked\")\n    if(tourTag.classList.contains(\"clicked\")){\n      tourTag.innerHTML = \"Close\"\n    } else {\n      tourTag.innerHTML = \"Tour\"\n    }\n  })\n\n\n\n  newsTag.addEventListener(\"click\", function() {\n  newsTag.classList.toggle(\"clicked\")\n  if(newsTag.classList.contains(\"clicked\")){\n    newsModal.style.display=\"flex\"\n    tl.play()\n    let newsClick = false\n    newsTag.innerHTML = \"Close\"\n  }else{\n    tl.reverse()\n    newsTag.innerHTML = \"News\"\n  }\n  })\n\n}\n\ndoThree()\n\n\n//# sourceURL=webpack://couch-prints/./src/scripts/main.js?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/CP_Singles.jpg":
-/*!****************************************!*\
-  !*** ./src/scripts/lib/CP_Singles.jpg ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"d1bb2c28e6e8a5acedb2.jpg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/CP_Singles.jpg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/CP_TU-EP.jpg":
-/*!**************************************!*\
-  !*** ./src/scripts/lib/CP_TU-EP.jpg ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"54dde7720b1bb6054dbe.jpg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/CP_TU-EP.jpg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/Couch-Prints_Tell-U_Press_Wade_01_SMALL.jpg":
-/*!*********************************************************************!*\
-  !*** ./src/scripts/lib/Couch-Prints_Tell-U_Press_Wade_01_SMALL.jpg ***!
-  \*********************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"cda09d965285cb73134e.jpg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/Couch-Prints_Tell-U_Press_Wade_01_SMALL.jpg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/Couch-Prints_Tell-U_Press_Wade_02_SMALL.jpg":
-/*!*********************************************************************!*\
-  !*** ./src/scripts/lib/Couch-Prints_Tell-U_Press_Wade_02_SMALL.jpg ***!
-  \*********************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"09ce7cca0fd2510ebf23.jpg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/Couch-Prints_Tell-U_Press_Wade_02_SMALL.jpg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/Of-Drawing_02_SMALL.jpg":
-/*!*************************************************!*\
-  !*** ./src/scripts/lib/Of-Drawing_02_SMALL.jpg ***!
-  \*************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"d3beff439216f120572b.jpg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/Of-Drawing_02_SMALL.jpg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/Of-Drawing_Cover-Art_SMALL.jpg":
-/*!********************************************************!*\
-  !*** ./src/scripts/lib/Of-Drawing_Cover-Art_SMALL.jpg ***!
-  \********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"a3d0f6a8d1fbc115dda0.jpg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/Of-Drawing_Cover-Art_SMALL.jpg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/Of-Drawing_SMALL.jpg":
-/*!**********************************************!*\
-  !*** ./src/scripts/lib/Of-Drawing_SMALL.jpg ***!
-  \**********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"588039d65fe83a620c15.jpg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/Of-Drawing_SMALL.jpg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/fb.svg":
-/*!********************************!*\
-  !*** ./src/scripts/lib/fb.svg ***!
-  \********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"b4274cee788b4e5d7294.svg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/fb.svg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/ig.png":
-/*!********************************!*\
-  !*** ./src/scripts/lib/ig.png ***!
-  \********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"0bfd27450ada946b6273.png\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/ig.png?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/ig.svg":
-/*!********************************!*\
-  !*** ./src/scripts/lib/ig.svg ***!
-  \********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"08c8b939982e1d1cce71.svg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/ig.svg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/impressions-art.jpg":
-/*!*********************************************!*\
-  !*** ./src/scripts/lib/impressions-art.jpg ***!
-  \*********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"09b8bd670b4db615a126.jpg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/impressions-art.jpg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/rapture_bk.png":
-/*!****************************************!*\
-  !*** ./src/scripts/lib/rapture_bk.png ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"cc4344f579c49e0e03bf.png\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/rapture_bk.png?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/rapture_dn.png":
-/*!****************************************!*\
-  !*** ./src/scripts/lib/rapture_dn.png ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"207638af9a5744701ed1.png\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/rapture_dn.png?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/rapture_ft.png":
-/*!****************************************!*\
-  !*** ./src/scripts/lib/rapture_ft.png ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"066e6d5416df9e640be1.png\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/rapture_ft.png?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/rapture_lf.png":
-/*!****************************************!*\
-  !*** ./src/scripts/lib/rapture_lf.png ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"d8492b781b9381cd8b13.png\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/rapture_lf.png?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/rapture_rt.png":
-/*!****************************************!*\
-  !*** ./src/scripts/lib/rapture_rt.png ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"d41a12a9f94d5e5b4b1b.png\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/rapture_rt.png?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/rapture_up.png":
-/*!****************************************!*\
-  !*** ./src/scripts/lib/rapture_up.png ***!
-  \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"f0779c5a624d7725a89e.png\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/rapture_up.png?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/s.svg":
-/*!*******************************!*\
-  !*** ./src/scripts/lib/s.svg ***!
-  \*******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"967d8d3542f4a315dd1d.svg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/s.svg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/sc.svg":
-/*!********************************!*\
-  !*** ./src/scripts/lib/sc.svg ***!
-  \********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"dc221a299cc0c454d8e4.svg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/sc.svg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/t.svg":
-/*!*******************************!*\
-  !*** ./src/scripts/lib/t.svg ***!
-  \*******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"2ceb786456891e72d5b7.svg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/t.svg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/tell-u_01.jpg":
-/*!***************************************!*\
-  !*** ./src/scripts/lib/tell-u_01.jpg ***!
-  \***************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"3642375e8333ffb3789a.jpg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/tell-u_01.jpg?");
-
-/***/ }),
-
-/***/ "./src/scripts/lib/yt.svg":
-/*!********************************!*\
-  !*** ./src/scripts/lib/yt.svg ***!
-  \********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"dc48f176bab41d1392f1.svg\";\n\n//# sourceURL=webpack://couch-prints/./src/scripts/lib/yt.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var three__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! three */ \"./node_modules/three/build/three.module.js\");\n/* harmony import */ var gsap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gsap */ \"./node_modules/gsap/index.js\");\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './canvas-fix.css'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './normalize.css'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './style.css'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n\n\n\n\n\n\n\n// this imports all images from ./lib \n\nfunction importAll(r) {\n  let images = {};\n  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });\n  console.log(images)\n  return images;\n}\n\nconst images = importAll(__webpack_require__(\"./src/scripts/lib sync \\\\.(png%7Cjpe?g%7Csvg)$\"));\n  \nfunction doThree () {\n  const renderer = new three__WEBPACK_IMPORTED_MODULE_0__.WebGLRenderer({\n    anitalias: true\n  })\n  renderer.setSize(window.innerWidth, window.innerHeight)\n  renderer.setPixelRatio(window.devicePixelRatio)\n  renderer.setClearColor(0xffffff, 1)\n  const section = document.querySelector(\"main.three\")\n  section.appendChild(renderer.domElement)\n\n  // Scene -------------------------------------------------------\n  const scene = new three__WEBPACK_IMPORTED_MODULE_0__.Scene()\n  //scene.fog = new THREE.FogExp2(0x000000, 0.00034)\n\n  // Light -------------------------------------------------------\n  const light = new three__WEBPACK_IMPORTED_MODULE_0__.AmbientLight(0xcccccc)\n  scene.add(light)\n\n\n\n  // Camera ------------------------------------------------------\n  const camera = new three__WEBPACK_IMPORTED_MODULE_0__.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 10000)\n\n  camera.position.z = -3000\n\n\n  // Texture Loader ----------------------------------------------\n  const loader = new three__WEBPACK_IMPORTED_MODULE_0__.TextureLoader()\n\n\n  // Shapes ------------------------------------------------------\n  const createTellU= function (image, x, y, z, web, name) {\n    const texture = loader.load(image)\n    const geometry = new three__WEBPACK_IMPORTED_MODULE_0__.PlaneGeometry( 900, 900, 1)\n\n    const material = new three__WEBPACK_IMPORTED_MODULE_0__.MeshPhongMaterial({\n      map: texture,\n      color: 0xffffff,\n      specular: 0x111111,\n      shininess: 0,\n      side: three__WEBPACK_IMPORTED_MODULE_0__.DoubleSide\n    })\n\n    const mesh = new three__WEBPACK_IMPORTED_MODULE_0__.Mesh(geometry, material)\n    mesh.userData = {\n      URL: web,\n      NAME: name,\n    }\n\n    mesh.position.set(x,y,z)\n\n    scene.add(mesh)\n    return mesh\n  }\n\n  const createSkyBox = function() {\n\n    var imagePrefix = \"./assets/images/rapture_\";\n    var directions  = [\"ft\", \"bk\", \"up\", \"dn\", \"rt\", \"lf\"];\n    var imageSuffix = \".png\";\n    var geometry = new three__WEBPACK_IMPORTED_MODULE_0__.CubeGeometry( 5000, 5000, 5000 );\n\n    var materialArray = [];\n    for (var i = 0; i < 6; i++)\n      materialArray.push( new three__WEBPACK_IMPORTED_MODULE_0__.MeshBasicMaterial({\n        map: three__WEBPACK_IMPORTED_MODULE_0__.ImageUtils.loadTexture( imagePrefix + directions[i] + imageSuffix ),\n        side: three__WEBPACK_IMPORTED_MODULE_0__.BackSide\n      }));\n    var material = new three__WEBPACK_IMPORTED_MODULE_0__.MeshFaceMaterial( materialArray );\n    var mesh = new three__WEBPACK_IMPORTED_MODULE_0__.Mesh( geometry, material );\n    scene.add(mesh);\n    return mesh\n}\n\n  // Adding Shapes -----------------------------------------------\n\n  const tellU = createTellU('./assets/images/impressions-art.jpg', 0, 0, -1000, \"http://fn-up.com/\", \"www.fn-up.com\")\n  const skyBoxMade = createSkyBox()\n\n  const group = new three__WEBPACK_IMPORTED_MODULE_0__.Group()\n    group.add(tellU)\n    scene.add(group)\n\n\n  // Holding Camera Position for tweening ------------------------\n  let currentX = 0\n  let currentY = 0\n  let aimX = 0\n  let aimY = 0\n  let aimX2 = 0\n  let aimY2 = 0\n\n  // Animate -----------------------------------------------------\n  const animate = function () {\n\n    const diffX = aimX - currentX\n    const diffY = aimY - currentY\n    const diffX2 = aimX2 - currentX\n    const diffY2 = aimY2 - currentY\n\n    currentX = currentX + diffX * 0.1\n    currentY = currentY + diffY * 0.1\n\n    camera.position.x = currentX\n    camera.position.y = currentY\n\n    tellU.rotateY(-0.005)\n    //FNUP.rotateX(0.01)\n    skyBoxMade.rotateY(0.0005)\n    camera.lookAt(scene.position)\n\n    /*mirrorCubeCamera.lookAt(scene.position)\n\n    mirrorCube.visible = false;\n  \tmirrorCubeCamera.update( renderer, scene );\n  \tmirrorCube.visible = true;*/\n\n    renderer.render(scene, camera)\n\n    requestAnimationFrame(animate)\n\n    // console.log('animate')\n\n  }\n\n  animate ()\n\n\n  // Functions ---------------------------------------------------\n  let startX = 0\n  let startY = 0\n  let isMouseDown = false\n  var objects = [tellU]\n  const contactModal = document.getElementsByClassName('contact-modal')[0]\n  const contactTag = document.getElementsByClassName('bottom-right')[0]\n  const tourTag = document.getElementsByClassName('tour')[0]\n  const tourModal = document.getElementsByClassName('tour-info')[0]\n  const infoRight = document.getElementsByClassName('info-right')[0]\n  const newsModal = document.getElementsByClassName('news-scroll')[0]\n  const newsTag = document.getElementsByClassName('bottom-left')[0]\n  const musicTag = document.getElementsByClassName('top-right')[0]\n  const bodyTag = document.querySelector(\"body\")\n  let newsClick = true\n  let mouse = new three__WEBPACK_IMPORTED_MODULE_0__.Vector2();\n  let raycaster = new three__WEBPACK_IMPORTED_MODULE_0__.Raycaster(),INTERSECTED;\n\n\n  window.addEventListener(\"resize\", function () {\n    camera.aspect = window.innerWidth / window.innerHeight\n    camera.updateProjectionMatrix()\n    renderer.setSize(window.innerWidth, window.innerHeight)\n  })\n\n  // Tweening ---------------------------------------------------\n  gsap__WEBPACK_IMPORTED_MODULE_2__[\"default\"].set(newsModal,{autoAlpha:1})\n  const tl = gsap__WEBPACK_IMPORTED_MODULE_2__[\"default\"].timeline({paused:true, onReverseComplete:reverseFunction})\n  console.log(tl)\n  tl.to(tellU.position, {duration: 1, x:3000, ease: \"back.inOut(1.7)\"}, 0)\n  tl.from(newsModal, {duration: .75, autoAlpha:0, y: -50, ease: \"back.inOut(1.7)\"}, .65);\n  // \"back.out(1.7)\"\n\n  function reverseFunction () {\n    newsModal.style.display=\"none\"\n  }\n\n\n\n  // Mouse Wheel =====================================\n  section.addEventListener('wheel', onMouseWheel, false);\n\n    function onMouseWheel(event) {\n        event.preventDefault();\n\n      let currentRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              currentRotation.makeRotationFromEuler(tellU.rotation);\n\n              let newEuler = new three__WEBPACK_IMPORTED_MODULE_0__.Euler(event.deltaY * 0.007, event.deltaX * 0.007, 0);\n              let newRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              newRotation.makeRotationFromEuler(newEuler);\n\n              let finalRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              finalRotation.multiplyMatrices(newRotation, currentRotation);\n\n              tellU.rotation.setFromRotationMatrix(finalRotation);\n\n    }\n\n  // Drag ===========================================\n  document.addEventListener(\"mousedown\", function () {\n    isMouseDown = true\n    startX = event.pageX\n    startY = event.pageY\n    document.body.style.cursor = 'grabbing';\n  })\n\n  document.addEventListener(\"touchstart\", function () {\n  isMouseDown = true\n  startX = event.pageX\n  startY = event.pageY\n})\n\n  document.addEventListener(\"mouseup\", function () {\n    isMouseDown = false\n    document.body.style.cursor = 'grab';\n  })\n\n  document.addEventListener(\"touchend\", function () {\n    isMouseDown = false\n  })\n\n  document.addEventListener(\"mousemove\", function (event) {\n    aimX = ((window.innerWidth / 2) - event.pageX) * 0.25\n    aimY = ((window.innerHeight / 2) - event.pageY) * 0.3\n    aimX2 = ((window.innerWidth / 2) - event.pageX) * 0.05\n    aimY2 = ((window.innerHeight / 2) - event.pageY) * 0.05\n\n    mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;\n    mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;\n\n    raycaster.setFromCamera(mouse, camera)\n\n    const intersections = raycaster.intersectObjects(group.children)\n\n    // if (intersections.length > 0) {\n    //       if (INTERSECTED != intersections[0].object) {\n    //           if (INTERSECTED) INTERSECTED.material.color.setHex(INTERSECTED.currentHex);\n    //           INTERSECTED = intersections[0].object;\n    //           INTERSECTED.currentHex = INTERSECTED.material.color.getHex();\n    //           INTERSECTED.material.color.setHex( 0xffffff );\n    //           if (INTERSECTED){\n    //               document.body.style.cursor = \"pointer\"\n    //           }\n    //       }\n    //     } else {\n    //         if (INTERSECTED) INTERSECTED.material.color.setHex(INTERSECTED.currentHex);\n    //         document.body.style.cursor = \"default\";\n    //         INTERSECTED = null;\n    //     }\n    if(isMouseDown) {\n      let currentRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              currentRotation.makeRotationFromEuler(tellU.rotation);\n\n              let newEuler = new three__WEBPACK_IMPORTED_MODULE_0__.Euler((event.pageY - startY) / 100, (event.pageX - startX) / 100, 0);\n              let newRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              newRotation.makeRotationFromEuler(newEuler);\n\n              let finalRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              finalRotation.multiplyMatrices(newRotation, currentRotation);\n\n              tellU.rotation.setFromRotationMatrix(finalRotation);\n\n              startX = event.pageX;\n              startY = event.pageY;\n    }\n  })\n\n  document.addEventListener(\"touchmove\", function (event) {\n    event.preventDefault();\n\n    aimX = ((window.innerWidth / 2) - event.pageX) * 0.25\n    aimY = ((window.innerHeight / 2) - event.pageY) * 0.3\n    aimX2 = ((window.innerWidth / 2) - event.pageX) * 0.05\n    aimY2 = ((window.innerHeight / 2) - event.pageY) * 0.05\n\n    mouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;\n    mouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;\n\n    raycaster.setFromCamera(mouse, camera)\n\n    const intersections = raycaster.intersectObjects(group.children)\n\n    if(isMouseDown) {\n      let currentRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              currentRotation.makeRotationFromEuler(tellU.rotation);\n\n              let newEuler = new three__WEBPACK_IMPORTED_MODULE_0__.Euler((event.pageY - startY) / 100, (event.pageX - startX) / 100, 0);\n              let newRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              newRotation.makeRotationFromEuler(newEuler);\n\n              let finalRotation = new three__WEBPACK_IMPORTED_MODULE_0__.Matrix4();\n              finalRotation.multiplyMatrices(newRotation, currentRotation);\n\n              tellU.rotation.setFromRotationMatrix(finalRotation);\n\n              startX = event.pageX;\n              startY = event.pageY;\n    }\n  })\n\n  // section.addEventListener('click', onDocumentMouseDown, false);\n  //\n  // function onDocumentMouseDown(event) {\n  //   event.preventDefault();\n  //\n  //   mouse.x = (event.clientX / window.innerWidth) * 2 - 1;\n  //   mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;\n  //   raycaster.setFromCamera(mouse, camera);\n  //   const intersections = raycaster.intersectObjects(objects)\n  //\n  // }\n\n\n  contactTag.addEventListener(\"click\", function () {\n    contactModal.classList.toggle(\"open\")\n    contactTag.classList.toggle(\"clicked\")\n    if(contactTag.classList.contains(\"clicked\")){\n      contactTag.innerHTML = \"Close\"\n    } else {\n      contactTag.innerHTML = \"Contact\"\n    }\n\n  })\n\n\n  // musicTag.addEventListener(\"mouseover\", function() {\n  //   musicTag.innerHTML = \"Soon\"\n  //   bodyTag.style.cursor = \"pointer\"\n  // })\n\n  // musicTag.addEventListener(\"mouseout\", function() {\n  //   musicTag.innerHTML = \"Music\"\n  //   bodyTag.style.cursor = \"grab\"\n  // })\n\n  tourTag.addEventListener(\"click\", function () {\n    tourModal.classList.toggle(\"open\")\n    infoRight.classList.toggle(\"open\")\n    tourTag.classList.toggle(\"clicked\")\n    if(tourTag.classList.contains(\"clicked\")){\n      tourTag.innerHTML = \"Close\"\n    } else {\n      tourTag.innerHTML = \"Tour\"\n    }\n  })\n\n\n\n  newsTag.addEventListener(\"click\", function() {\n  newsTag.classList.toggle(\"clicked\")\n  if(newsTag.classList.contains(\"clicked\")){\n    newsModal.style.display=\"flex\"\n    tl.play()\n    let newsClick = false\n    newsTag.innerHTML = \"Close\"\n  }else{\n    tl.reverse()\n    newsTag.innerHTML = \"News\"\n  }\n  })\n\n}\n\ndoThree()\n\n\n//# sourceURL=webpack://couch-prints/./src/scripts/main.js?");
 
 /***/ })
 
@@ -484,7 +88,7 @@ eval("module.exports = __webpack_require__.p + \"dc48f176bab41d1392f1.svg\";\n\n
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			id: moduleId,
+/******/ 			// no module.id needed
 /******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
@@ -497,18 +101,6 @@ eval("module.exports = __webpack_require__.p + \"dc48f176bab41d1392f1.svg\";\n\n
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
-/******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
-/******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
-/******/ 			__webpack_require__.d(getter, { a: getter });
-/******/ 			return getter;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -519,18 +111,6 @@ eval("module.exports = __webpack_require__.p + \"dc48f176bab41d1392f1.svg\";\n\n
 /******/ 				}
 /******/ 			}
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
@@ -547,26 +127,6 @@ eval("module.exports = __webpack_require__.p + \"dc48f176bab41d1392f1.svg\";\n\n
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
