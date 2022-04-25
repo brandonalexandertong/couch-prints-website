@@ -94,7 +94,7 @@ function doThree () {
 
   // Adding Shapes -----------------------------------------------
 
-  const tellU = createTellU('./assets/images/impressions-art.jpg', 0, 0, -1000, "http://fn-up.com/", "www.fn-up.com")
+  const tellU = createTellU('./assets/images/horsepower-art.jpg', 0, 0, -1000, "http://fn-up.com/", "www.fn-up.com")
   const skyBoxMade = createSkyBox()
 
   const group = new THREE.Group()
@@ -128,18 +128,9 @@ function doThree () {
     //FNUP.rotateX(0.01)
     skyBoxMade.rotateY(0.0005)
     camera.lookAt(scene.position)
-
-    /*mirrorCubeCamera.lookAt(scene.position)
-
-    mirrorCube.visible = false;
-  	mirrorCubeCamera.update( renderer, scene );
-  	mirrorCube.visible = true;*/
-
     renderer.render(scene, camera)
 
     requestAnimationFrame(animate)
-
-    // console.log('animate')
 
   }
 
@@ -241,21 +232,6 @@ function doThree () {
 
     const intersections = raycaster.intersectObjects(group.children)
 
-    // if (intersections.length > 0) {
-    //       if (INTERSECTED != intersections[0].object) {
-    //           if (INTERSECTED) INTERSECTED.material.color.setHex(INTERSECTED.currentHex);
-    //           INTERSECTED = intersections[0].object;
-    //           INTERSECTED.currentHex = INTERSECTED.material.color.getHex();
-    //           INTERSECTED.material.color.setHex( 0xffffff );
-    //           if (INTERSECTED){
-    //               document.body.style.cursor = "pointer"
-    //           }
-    //       }
-    //     } else {
-    //         if (INTERSECTED) INTERSECTED.material.color.setHex(INTERSECTED.currentHex);
-    //         document.body.style.cursor = "default";
-    //         INTERSECTED = null;
-    //     }
     if(isMouseDown) {
       let currentRotation = new THREE.Matrix4();
               currentRotation.makeRotationFromEuler(tellU.rotation);
@@ -307,19 +283,6 @@ function doThree () {
     }
   })
 
-  // section.addEventListener('click', onDocumentMouseDown, false);
-  //
-  // function onDocumentMouseDown(event) {
-  //   event.preventDefault();
-  //
-  //   mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-  //   mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-  //   raycaster.setFromCamera(mouse, camera);
-  //   const intersections = raycaster.intersectObjects(objects)
-  //
-  // }
-
-
   contactTag.addEventListener("click", function () {
     contactModal.classList.toggle("open")
     contactTag.classList.toggle("clicked")
@@ -331,28 +294,16 @@ function doThree () {
 
   })
 
-
-  // musicTag.addEventListener("mouseover", function() {
-  //   musicTag.innerHTML = "Soon"
-  //   bodyTag.style.cursor = "pointer"
+  // tourTag.addEventListener("click", function () {
+  //   tourModal.classList.toggle("open")
+  //   infoRight.classList.toggle("open")
+  //   tourTag.classList.toggle("clicked")
+  //   if(tourTag.classList.contains("clicked")){
+  //     tourTag.innerHTML = "Close"
+  //   } else {
+  //     tourTag.innerHTML = "Tour"
+  //   }
   // })
-
-  // musicTag.addEventListener("mouseout", function() {
-  //   musicTag.innerHTML = "Music"
-  //   bodyTag.style.cursor = "grab"
-  // })
-
-  tourTag.addEventListener("click", function () {
-    tourModal.classList.toggle("open")
-    infoRight.classList.toggle("open")
-    tourTag.classList.toggle("clicked")
-    if(tourTag.classList.contains("clicked")){
-      tourTag.innerHTML = "Close"
-    } else {
-      tourTag.innerHTML = "Tour"
-    }
-  })
-
 
 
   newsTag.addEventListener("click", function() {

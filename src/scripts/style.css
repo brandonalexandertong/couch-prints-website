@@ -405,6 +405,10 @@ section.news-scroll img {
   margin-bottom: 30px;
 }
 
+section.news-scroll iframe {
+  margin-bottom: 30px;
+}
+
 section.news-scroll article {
   text-align: center;
   margin-top: 40px;
