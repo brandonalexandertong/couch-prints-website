@@ -94,7 +94,7 @@ function doThree () {
 
   // Adding Shapes -----------------------------------------------
 
-  const tellU = createTellU('./assets/images/horsepower-art.jpg', 0, 0, -1000, "http://fn-up.com/", "www.fn-up.com")
+  const tellU = createTellU('./assets/images/allIKnow-art.jpg', 0, 0, -1000, "http://fn-up.com/", "www.fn-up.com")
   const skyBoxMade = createSkyBox()
 
   const group = new THREE.Group()
